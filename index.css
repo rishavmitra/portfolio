@@ -1,0 +1,52 @@
+*{
+	font-size: 20px;
+	margin: 0;
+	font-family: 'Roboto Mono', monospace;
+	color: #269900;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.navbar{
+	background-color: black;
+	height:40px;
+	width: 100%;
+	padding: 10px 0;
+	position: fixed;
+}
+
+
+.navbar .logo p{
+	font-size: 40px;
+	position: absolute;
+	top:10%;
+	left:10px;
+}
+
+.navbar .menu{
+	position:absolute;
+	right:0%;
+	top:30%;
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+	transition: color ease 0.3s;
+}
+
+.navbar .menu li:hover{
+	color:#39e600;
+	cursor: default;
+}
