@@ -2,7 +2,6 @@
 	font-size: 20px;
 	margin: 0;
 	font-family: 'Roboto Mono', monospace;
-	color: #269900;
 }
 
 #background-video {
@@ -18,6 +17,7 @@
 }
 
 .navbar{
+	color: #269900;
 	background-color: black;
 	height:40px;
 	width: 100%;
@@ -50,3 +50,4 @@
 	color:#39e600;
 	cursor: default;
 }
+

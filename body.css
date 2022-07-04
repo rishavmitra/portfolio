@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+}
+
+#sec1 
+{
+	position: relative;
+	top: 30vh;
+}
+#sec1 .desc-body{
+	position: absolute;
+	width: 500px;
+	right: 0px;
+	height: 500px;
+	/*background-color: black;
+	border:2px solid red;*/
+	color: white;
+}
+#sec1 .desc-body p{
+	font-size: 30px;
+}
+#sec1 .desc-body p span{
+	font-size: 50px;
+}
