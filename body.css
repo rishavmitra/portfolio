@@ -5,13 +5,12 @@
 #sec1 
 {
 	position: relative;
-	top: 30vh;
+	top:40vh;
 }
 #sec1 .desc-body{
-	position: absolute;
+	position: relative;
 	width: 500px;
-	right: 0px;
-	height: 1000px;
+	left: 60%;
 	/*background-color: black;
 	border:2px solid red;*/
 	color: white;
@@ -21,4 +20,27 @@
 }
 #sec1 .desc-body p span{
 	font-size: 50px;
+}
+
+#sec1 .skills{
+	height: 400px;
+	background-color: black;
+	/*border:2px solid red;*/
+	color: white;
+	margin-top: 50px;
+}
+
+#sec1 .skills header{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+#sec1 .skills .box{
+	position: relative;
+	left: 20%;
+	display: inline-block;
+	/*border:2px solid red;*/
+	margin: 100px 30px 100px 20px;
 }
