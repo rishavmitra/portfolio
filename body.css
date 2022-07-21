@@ -1,5 +1,13 @@
-*{
-	margin: 0;
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 #sec1 
@@ -9,7 +17,7 @@
 }
 #sec1 .desc-body{
 	position: relative;
-	width: 500px;
+	width: 30vw;
 	left: 60%;
 	/*background-color: black;
 	border:2px solid red;*/
@@ -23,7 +31,8 @@
 }
 
 #sec1 .skills{
-	height: 400px;
+	height: 50vh;
+	width: 100vw;
 	background-color: black;
 	/*border:2px solid red;*/
 	color: white;
@@ -37,10 +46,32 @@
 	top: 30px;
 }
 
+#sec1 .skills .container{
+	position: relative;
+	top: 10%;
+	height: 100px;
+	margin: auto;
+	width: 70vw; 
+}
+
 #sec1 .skills .box{
 	position: relative;
-	left: 20%;
+	left: 12%;
 	display: inline-block;
 	/*border:2px solid red;*/
-	margin: 100px 30px 100px 20px;
+	margin: auto 20px;
+}
+
+@media (min-width:200px) and (max-width: 415px){
+	#sec1 .skills .box{
+		position: relative;
+		left: 25%;
+	}
+	#sec1 .desc-body{
+		left: 40%;
+		width: 40vw;
+	}
+	#sec1 .skills{
+		height: 80vh;
+	}
 }
