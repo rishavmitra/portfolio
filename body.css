@@ -56,16 +56,26 @@
 
 #sec1 .skills .box{
 	position: relative;
-	left: 12%;
+	left: 10%;
 	display: inline-block;
 	/*border:2px solid red;*/
-	margin: auto 20px;
+	margin: 20px;
+	margin-right: 20px;
+}
+
+@media (min-width:200px) and (max-width: 1000px)
+{
+	#background-video{
+		object-fit: cover;
+	}
 }
 
 @media (min-width:200px) and (max-width: 415px){
 	#sec1 .skills .box{
 		position: relative;
 		left: 25%;
+		margin: auto 20px;
+		margin-top:20px; 
 	}
 	#sec1 .desc-body{
 		left: 40%;
